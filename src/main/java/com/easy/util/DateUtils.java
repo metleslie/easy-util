@@ -109,19 +109,19 @@ public class DateUtils {
         if (StrUtils.isNotBlank(year)) {
             sb.append(year);
         }
-        if (StrUtil.isNotBlank(month)) {
+        if (StrUtils.isNotBlank(month)) {
             sb.append("-").append(month);
         }
-        if (StrUtil.isNotBlank(day)) {
+        if (StrUtils.isNotBlank(day)) {
             sb.append("-").append(day);
         }
-        if (StrUtil.isNotBlank(hour)) {
+        if (StrUtils.isNotBlank(hour)) {
             sb.append(" ").append(hour);
         }
-        if (StrUtil.isNotBlank(minute)) {
+        if (StrUtils.isNotBlank(minute)) {
             sb.append(":").append(minute);
         }
-        if (StrUtil.isNotBlank(second)) {
+        if (StrUtils.isNotBlank(second)) {
             sb.append(":").append(second);
         }
         try {
